@@ -1,0 +1,52 @@
+/*CSSRESET*/
+*,*::before,*::after{box-sizing:border-box;}/*Removedefaultpadding*/ul[class],ol[class]{padding:0;}/*Removedefaultmargin*/body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd{margin:0;}/*Setcorebodydefaults*/body{min-height:100vh;scroll-behavior:smooth;text-rendering:optimizeSpeed;line-height:1.5;}/*Removeliststylesonul,olelementswithaclassattribute*/ul[class],ol[class]{list-style:none;}/*Aelementsthatdon'thaveaclassgetdefaultstyles*/a:not([class]){text-decoration-skip-ink:auto;}/*Makeimageseasiertoworkwith*/img{max-width:100%;display:block;}/*Naturalflowandrhythminarticlesbydefault*/article>*+*{margin-top:1em;}/*Inheritfontsforinputsandbuttons*/input,button,textarea,select{font:inherit;}
+
+body {
+  box-sizing: border-box;
+  padding: 64px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: 'Open Sans', sans-serif;
+  font-feature-settings: 'tnum';
+  font-variant-numeric: tabular-nums;
+  font-size: 16px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: right;
+}
+
+td {
+
+}
+
+
+.dimension {
+  text-align: left;
+}
+
+.id {}
+
+.text-long {}
+
+.link {}
+
+.text {
+  white-space: nowrap;
+}
+
+.date {
+  white-space: nowrap;
+}
+
+.date .time {
+  opacity: .5;
+  font-weight: bold;
+}
